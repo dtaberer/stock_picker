@@ -64,7 +64,7 @@ class StockPicker
   end
 
   # Builds out a list of days and profits in the following form:
-  # [[3, [1,2], [6, [1,3]], ...]
+  # [[3, [1,2]], [6, [1,3]], ...]
   # The first element is the profit and the second are the day indices.
   # This makes it easy to max by profit, leveraging the built-in
   # ruby methods to manage data structures as opposed to using
