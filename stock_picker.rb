@@ -23,8 +23,8 @@ class StockPicker
 
   private
 
-  def day_prices=(prices = nil)
-    @day_prices ||= prices
+  def day_prices=(prices)
+    @day_prices = prices
     raise ArgumentError, ARGUMENT_ERROR_MSG if prices.count < 2
   end
 
